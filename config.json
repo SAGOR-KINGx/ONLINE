@@ -57,7 +57,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "SAGIR BOT V2",
+  "nickNameBot": "ＳＡＧＯＲ<->ＢＯＴ",
   "prefix": "!",
   "database": {
     "type": "sqlite",
