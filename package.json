@@ -65,13 +65,13 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/JAHIDULLX6/goatbot.git"
+		"url": "git+https://github.com/SAGOR-KINGx/ONLINE.git"
 	},
 	"keywords": [],
 	"bugs": {
-		"url": "https://github.com/JAHIDULLX6/goatbot/issues"
+		"url": "https://github.com/SAGOR-KINGx/ONLINE/issues"
 	},
-	"homepage": "https://github.com/JAHIDULLX6/goatbot#readme",
+	"homepage": "https://github.com/SAGOR-KINGx/ONLINE#readme",
 	"devDependencies": {
 		"eslint": "^8.2.0",
 		"eslint-config-airbnb": "^19.0.4",
