@@ -131,7 +131,7 @@ fs.copyFileSync = function (src, dest) {
 		return log.error("ERROR", getText("updater", "updateTooFast", minutes, seconds));
 	}
 
-	const { data: versions } = await axios.get('https://raw.githubusercontent.com/JAHIDULLX6/goatbot/refs/heads/main/version.json');
+	const { data: versions } = await axios.get('https://raw.githubusercontent.com/SAGOR-KINGx/ONLINE/refs/heads/main/version.json');
 	const currentVersion = require('./package.json').version;
 	const indexCurrentVersion = versions.findIndex(v => v.version === currentVersion);
 	if (indexCurrentVersion === -1)
@@ -272,7 +272,7 @@ fs.copyFileSync = function (src, dest) {
 		}
 	}
 
-	const { data: packageHTML } = await axios.get("https://raw.githubusercontent.com/JAHIDULLX6/goatbot/refs/heads/main/package.json");
+	const { data: packageHTML } = await axios.get("https://raw.githubusercontent.com/SAGOR-KINGx/ONLINE/refs/heads/main/package.json");
 	const json = packageHTML.split('data-target="react-app.embeddedData">')[1].split('</script>')[0];
 	const packageJSON = JSON.parse(json).payload.blob.rawLines.join('\n');
 
